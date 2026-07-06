@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "plugins": [
+      {
+        "id": "km-antibots",
+        "folder": "KM-AntiBots",
+        "displayName": "KM-AntiBots",
+        "jarTemplate": "km-antibots-v1.0.0-{ref}-stable.jar"
+      },
+      {
+        "id": "kmac",
+        "folder": "KMAC",
+        "displayName": "KMAC",
+        "artifacts": {
+          "proxy": {
+            "Velocity": "kmacv-v1.0.0-{ref}-stable.jar"
+          },
+          "servers": {
+            "default": "kmac-v1.0.0-{ref}-{host}-stable.jar"
+          }
+        }
+      },
+      {
+        "id": "km-maintenance",
+        "folder": "KM-Maintenance",
+        "displayName": "KM-Maintenance",
+        "jarTemplate": "km-maintenance-v1.0.0-{ref}-stable.jar"
+      },
+      {
+        "id": "km-moderations",
+        "folder": "KM-Moderations",
+        "displayName": "KM-Moderations",
+        "artifacts": {
+          "proxy": {
+            "Velocity": "km-moderations-v1.0.0-{ref}-stable.jar"
+          },
+          "servers": {
+            "default": "km-moderations-bridge-v1.0.0-{ref}-{host}-stable.jar"
+          }
+        }
+      },
+      {
+        "id": "km-perms",
+        "folder": "KM-Perms",
+        "displayName": "KM-Perms",
+        "artifacts": {
+          "proxy": {
+            "Velocity": "kmpv-v1.0.0-{ref}-stable.jar"
+          },
+          "servers": {
+            "default": "km-perms-v1.0.0-{ref}-{host}-stable.jar"
+          }
+        }
+      },
+      {
+        "id": "km-tab",
+        "folder": "KM-TAB",
+        "displayName": "KM-TAB",
+        "jarTemplate": "km-tab-v1.0.0-{ref}-stable.jar"
+      },
+      {
+        "id": "km-motd",
+        "folder": "KrazyMOTD",
+        "displayName": "KrazyMOTD",
+        "jarTemplate": "km-motd-v1.0.0-{ref}-stable.jar"
+      }
+    ]
+  }
